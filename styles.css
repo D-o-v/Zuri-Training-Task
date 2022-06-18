@@ -1,0 +1,58 @@
+
+body {
+  background-color: hsl(0deg 0% 95%);
+}
+main {
+  display:flex;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color:hsl(0deg 0% 95%) ;
+  font-family:[Lex];
+
+}
+main div {
+  padding: 2em;
+}
+button {
+  padding: 5px;
+  margin-top: 3.5rem;
+}
+
+.sedan {
+  background-color: hsl(30deg 77% 52%);
+  height: 50vh;
+  width: 100%;
+}
+.suv {
+  background-color: hsl(185deg 98% 23%);
+  height: 50vh;
+  width: 100%;
+}
+.luxury {
+  background-color: hsl(179deg 100% 13%);
+  height: 50vh;
+  width: 100%;
+}
+#b1,
+#b2,
+#b3 {
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  padding: 10px;
+}
+#b1 {
+  background-color: hsl(0deg 0% 95%);
+  color: hsl(30deg 77% 52%);
+}
+#b2 {
+  background-color: hsl(0deg 0% 95%);
+  color: hsl(185deg 98% 23%);
+}
+#b3 {
+  background-color: hsl(0deg 0% 95%);
+  color: hsl(179deg 100% 13%);
+}
